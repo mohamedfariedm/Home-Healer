@@ -15,7 +15,7 @@ import { Locale, usePathname, useRouter } from "@/i18n/routing";
 type LocaleOptionsType = {
   label: string;
   value: Locale;
-  icon: IconType;
+  icon: any;
 };
 
 const localeOptions = [

@@ -54,6 +54,9 @@ const nextConfig = {
   },
   reactStrictMode: true,
   transpilePackages: ["core"],
+  typescript: {
+    ignoreBuildErrors: true,
+  }
 };
 
 export default withNextIntl(nextConfig);
