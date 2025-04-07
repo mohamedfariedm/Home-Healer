@@ -58,8 +58,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   env: {
-    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
-    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+    NEXTAUTH_SECRET: "123",
+    NEXTAUTH_URL: "https://home-healer-isomorphic-intl.vercel.app",
   },
 };
 
